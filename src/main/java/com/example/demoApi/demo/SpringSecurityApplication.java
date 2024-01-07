@@ -9,12 +9,12 @@ import org.springframework.context.annotation.Bean;
 
 
 @SpringBootApplication
-public class DemoApiApplication {
+public class SpringSecurityApplication {
 
-	private final Logger logger = LoggerFactory.getLogger(DemoApiApplication.class);
+	private final Logger logger = LoggerFactory.getLogger(SpringSecurityApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApiApplication.class, args);
+		SpringApplication.run(SpringSecurityApplication.class, args);
 	}
 
 	@Bean
